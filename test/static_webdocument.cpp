@@ -1,7 +1,7 @@
 #include "catch2/catch.hpp"
 
 #include "fxt/static_feature.hpp"
-#include "fxt/features/static/wikipedia.hpp"
+#include "fxt/features/static/web_document.hpp"
 
 TEST_CASE("empty url is false") { REQUIRE(false == is_wikipedia_url("")); }
 

@@ -13,6 +13,7 @@
 #include <set>
 #include <unordered_map>
 #include <vector>
+#include <limits>
 
 #include "cereal/types/map.hpp"
 #include "cereal/types/utility.hpp"
