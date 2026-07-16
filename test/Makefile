@@ -7,7 +7,7 @@ CXXFLAGS += -O0 -g -std=c++17 -Wall -Wextra -pedantic \
 LDFAGS = -lFastPFor -L../build/external/FastPFor
 
 TARGET = main
-SRC = main.cpp static_wikipedia.cpp lmds.cpp bm25.cpp forward_index.cpp \
+SRC = main.cpp static_webdocument.cpp lmds.cpp bm25.cpp forward_index.cpp \
 	  ../src/compression.cpp forward_index_interactor.cpp \
 	  lexicon.cpp sdm.cpp
 OBJ = $(SRC:.cpp=.o)
